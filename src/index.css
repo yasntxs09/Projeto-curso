@@ -1,13 +1,62 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/*header*/
+header{
+  width: 100%;
+  height: 150px;
+  background-color: #b8b8bb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+header .headerTopo{
+  width: 100%;
+  height: 80px;
+}
+
+header .headerMenu{
+  width: 100%;
+  height: 40px;
+
+}
+header .headerMenu ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+header .headerMenu li{
+  font-size: 25px;
+}
+
+/*footer*/
+footer {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #bfb7b7;
+}
+
+footer .menuFooter {
+  width: 20%;
+}
+
+footer .menuFooter ul{
+  list-style: none;
+}
+
+footer .menuFooter li{
+  font-size: 18px;
+  height: 25px;
+}
+
+footer .credenciais {
+  width: 80%;
+  text-align: center;
+}
+
+footer .credenciais h1 {
+  color: #000000;
+  font-size: 20px;
 }
