@@ -12,7 +12,7 @@ function Footer() {
                 </ul>
             </div>
             <div className="credenciais">
-                <h1>Desenvolvido por: Yamim Santana - 2026 </h1>
+                <h1>Desenvolvido por: Yasmim Santana - 2026 </h1>
             </div>
 
         </footer>

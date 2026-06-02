@@ -4,13 +4,13 @@ import Header from "./componente/Header";
 import Footer from "./componente/Footer";
 import Main from "./componente/Main";
 
-import Erro from './componentes/Erro';
-import Equipe from './componentes/Equipe';
-import DisciplinasCurriculares from './componentes/DisciplinasCurriculares';
-import DisciplinasTecnicas from './componentes/DisciplinasTecnicas';
-import ListarDisciplinaCurricular from './componentes/ListarDisciplinaCurricular';
-import ListarDisciplinaTecnica from './componentes/ListarDisciplinaTecnica';
-import SobreCurso from './componentes/sobreCurso';
+import Erro from './componente/Erro';
+import Equipe from './componente/Equipe';
+import DisciplinasCurriculares from './componente/DisciplinasCurriculares';
+import DisciplinasTecnicas from './componente/DisciplinasTecnicas';
+import ListarDisciplinaCurricular from './componente/ListarDisciplinaCurricular';
+import ListarDisciplinaTecnica from './componente/ListarDisciplinaTecnica';
+import SobreCurso from './componente/SobreCurso';
 
 function App() {
   return (
