@@ -1,7 +1,7 @@
 function Equipe(){
     return(
         <div>
-            <h1>Equipe</h1>
+            <h1>Yasmim Santana de Araújo</h1>
         </div>
     )
 }

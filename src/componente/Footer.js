@@ -3,12 +3,12 @@ function Footer() {
 
     return (
         <footer>
-            <div className="menufooter">
+            <div className="menuFooter">
                 <ul>
-                    <li>Sobre o curso</li>
-                    <li>Disciplinas Curriculares</li>
-                    <li>Disciplinas Técnicas</li>
-                    <li>Equipe</li>
+                <li><Link to="/sobreCurso">Sobre Curso</Link></li>
+                    <li><Link to="/disciplinasCurriculares">Disciplinas Básicas</Link></li>
+                    <li><Link to="/disciplinasTecnicas">Disciplinas Técnica</Link></li>
+                    <li><Link to="/equipe">Equipe</Link></li>
                 </ul>
             </div>
             <div className="credenciais">
